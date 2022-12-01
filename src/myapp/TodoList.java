@@ -13,7 +13,7 @@ public class TodoList {
         List<Integer> listOfInt = new LinkedList<>();
 
         while (true) {
-            String newInteger = cons.readLine("Please enter number: ");
+            String newInteger = cons.readLine("Please enter a number: ");
 
             if(newInteger.equals("stop")) {
                 break;
